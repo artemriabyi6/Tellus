@@ -1,0 +1,62 @@
+.payout {
+    background: linear-gradient(blue, white);
+    .container {
+      padding: 150px 140px 250px 70px;
+      .payout-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .title-block {
+          h3 {
+            color: white;
+            font-family: Roboto;
+            font-size: 54px;
+            font-weight: 400;
+            line-height: 64px;
+            letter-spacing: 2.559999942779541px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+          }
+        }
+        .text-block {
+          width: 520px;
+          p {
+            color: white;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 33.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: 120px;
+          }
+          button {
+            font-family: Chivo;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0.9599999785423279px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            padding: 10px 50px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            border: white;
+            cursor: pointer;
+            &::after {
+              content: "➡";
+              margin-left: 10px;
+              font-size: 26px;
+              transition: transform 0.3s;
+            }
+            &:hover::after {
+              transform: translateX(30px);
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Встановлюємо стандартний шрифт для всіх елементів */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Відключаємо стандартне оформлення списків */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Відключаємо стандартні стилі для посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Скидаємо стилі для таблиць */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Встановлюємо ширину для картинки, щоб вона не виходила за межі контейнера */
+img {
+  max-width: 100%;
+  height: auto;
+}

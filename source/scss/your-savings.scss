@@ -1,0 +1,92 @@
+.your-savings {
+    padding: 150px 0px 150px 0px;
+    .container {
+      padding: 0px 150px 0px 150px;
+      .yourSavings-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .text-block {
+          .first-block {
+            h2 {
+              font-family: Roboto;
+              font-size: 52px;
+              font-weight: 400;
+              line-height: 64px;
+              letter-spacing: 2.559999942779541px;
+              text-align: left;
+              text-underline-position: from-font;
+              text-decoration-skip-ink: none;
+              margin-bottom: 30px;
+            }
+            p {
+              font-family: Roboto;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 25.2px;
+              letter-spacing: 0.36000001430511475px;
+              text-align: left;
+              text-underline-position: from-font;
+              text-decoration-skip-ink: none;
+              margin-bottom: 30px;
+            }
+            border-bottom: 1px solid #0e0f0f3d;
+          }
+
+          .second-block {
+            padding: 30px 0px 30px 0px;
+            border-bottom: 1px solid #0e0f0f3d;
+            .title {
+              font-family: Roboto;
+              font-size: 40px;
+              font-weight: 400;
+              line-height: 48px;
+              letter-spacing: 1.9199999570846558px;
+              text-align: left;
+              text-underline-position: from-font;
+              text-decoration-skip-ink: none;
+              margin-bottom: 30px;
+            }
+            p {
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 25.2px;
+              letter-spacing: 0.36000001430511475px;
+              text-align: left;
+              text-underline-position: from-font;
+              text-decoration-skip-ink: none;
+            }
+            margin-bottom: 50px;
+          }
+          button {
+            width: 184px;
+            padding: 20px 0px 20px 0px;
+            border-radius: 50px;
+            border: 1px solid #0e0f0f3d;
+            background: #ffffff;
+            cursor: pointer;
+            font-family: Chivo;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0.9599999785423279px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &::after {
+              content: "➡";
+              margin-left: 10px;
+              font-size: 26px;
+              transition: transform 0.3s;
+            }
+            &:hover::after {
+              transform: translateX(10px);
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,62 @@
+.customers {
+    .container {
+      padding: 50px 150px 50px 150px;
+      .customers-wrapper {
+        display: flex;
+        justify-content: space-around;
+        article {
+          width: 250px;
+          margin-bottom: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          .review {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 33.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: 15px;
+          }
+          .author {
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.800000011920929px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: 10px;
+          }
+          .rank {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.2800000011920929px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+          }
+        }
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        p {
+          display: inline;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.3199999928474426px;
+          text-align: center;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+    }
+  }

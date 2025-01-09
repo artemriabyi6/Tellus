@@ -1,0 +1,13 @@
+.partners {
+    background: #d2d9e1;
+    padding: 75px 0px 75px 0px;
+    position: relative;
+    bottom: 20px;
+    .container {
+      .partners-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  }

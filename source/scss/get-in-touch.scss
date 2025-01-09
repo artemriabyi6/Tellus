@@ -1,0 +1,48 @@
+.getInTouch {
+    padding: 200px 0px 100px 0px;
+    background-color: #0e0f0f;
+    border-bottom: #393d3dd6 1px solid;
+    .container {
+      .getInTouch-wrapper {
+        display: flex;
+        justify-content: space-around;
+        ul {
+          color: #d2d9e1;
+          text-align: left;
+          .main {
+            font-family: Chivo;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 19.6px;
+            letter-spacing: 1.1200000047683716px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+          }
+          li {
+            margin-bottom: 20px;
+            a {
+              font-family: Roboto;
+              font-size: 17px;
+              font-weight: 400;
+              line-height: 25.2px;
+              text-align: left;
+              text-underline-position: from-font;
+              text-decoration-skip-ink: none;
+            }
+          }
+          ul {
+            display: flex;
+            li {
+              margin-right: 15px;
+              a {
+                img {
+                  filter: contrast(0.5);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

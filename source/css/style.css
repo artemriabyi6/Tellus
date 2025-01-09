@@ -36,11 +36,6 @@ img {
   height: auto;
 }
 
-.container {
-  max-width: 1900px;
-  margin: auto;
-}
-
 header {
   background-color: black;
 }
@@ -234,14 +229,14 @@ header .header-wrapper .learnMore-block img {
   }
 }
 
-main .main-section {
+.main-section {
   padding: 150px 100px 0px 200px;
 }
-main .main-section .container .main-wrapper {
+.main-section .container .main-wrapper {
   display: flex;
   justify-content: space-between;
 }
-main .main-section .container .main-wrapper .text-block h1 {
+.main-section .container .main-wrapper .text-block h1 {
   padding: 75px 0 0 0;
   font-family: Roboto;
   font-size: 65px;
@@ -252,7 +247,7 @@ main .main-section .container .main-wrapper .text-block h1 {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .main-section .container .main-wrapper .text-block p {
+.main-section .container .main-wrapper .text-block p {
   font-family: Roboto;
   font-size: 22px;
   font-weight: 400;
@@ -263,7 +258,7 @@ main .main-section .container .main-wrapper .text-block p {
   text-decoration-skip-ink: none;
   margin-bottom: 150px;
 }
-main .main-section .container .main-wrapper .text-block .form-description {
+.main-section .container .main-wrapper .text-block .form-description {
   font-family: Chivo;
   font-size: 18px;
   font-weight: 400;
@@ -274,56 +269,45 @@ main .main-section .container .main-wrapper .text-block .form-description {
   text-decoration-skip-ink: none;
   margin-bottom: 15px;
 }
-main .main-section .container .main-wrapper .text-block form input {
+.main-section .container .main-wrapper .text-block form input {
   width: 500px;
   height: 8px;
   top: 856px;
   left: 40px;
-  gap: 0px;
   border-radius: 8px 8px 8px 8px;
-  opacity: 0px;
+  opacity: 0.1px;
   padding: 30px;
   position: relative;
   top: 0px;
   left: 0px;
   border: #d2d9e1 1px solid;
 }
-main .main-section .container .main-wrapper .text-block form button {
+.main-section .container .main-wrapper .text-block form button {
   width: 100px;
   height: 44px;
   background-color: black;
   border-radius: 100px 100px 100px 100px;
-  opacity: 0px;
+  opacity: 0.1px;
   position: absolute;
   left: 590px;
   top: 755px;
   cursor: pointer;
 }
-main .partners {
-  background: #d2d9e1;
-  padding: 75px 0px 75px 0px;
-  position: relative;
-  bottom: 20px;
-}
-main .partners .container .partners-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-main .your-savings {
+
+.your-savings {
   padding: 150px 0px 150px 0px;
 }
-main .your-savings .container {
+.your-savings .container {
   padding: 0px 150px 0px 150px;
 }
-main .your-savings .container .yourSavings-wrapper {
+.your-savings .container .yourSavings-wrapper {
   display: flex;
   justify-content: space-between;
 }
-main .your-savings .container .yourSavings-wrapper .text-block .first-block {
+.your-savings .container .yourSavings-wrapper .text-block .first-block {
   border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
 }
-main .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
+.your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
   font-family: Roboto;
   font-size: 52px;
   font-weight: 400;
@@ -334,7 +318,7 @@ main .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .your-savings .container .yourSavings-wrapper .text-block .first-block p {
+.your-savings .container .yourSavings-wrapper .text-block .first-block p {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
@@ -345,12 +329,12 @@ main .your-savings .container .yourSavings-wrapper .text-block .first-block p {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .your-savings .container .yourSavings-wrapper .text-block .second-block {
+.your-savings .container .yourSavings-wrapper .text-block .second-block {
   padding: 30px 0px 30px 0px;
   border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   margin-bottom: 50px;
 }
-main .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
+.your-savings .container .yourSavings-wrapper .text-block .second-block .title {
   font-family: Roboto;
   font-size: 40px;
   font-weight: 400;
@@ -361,7 +345,7 @@ main .your-savings .container .yourSavings-wrapper .text-block .second-block .ti
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .your-savings .container .yourSavings-wrapper .text-block .second-block p {
+.your-savings .container .yourSavings-wrapper .text-block .second-block p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -371,7 +355,7 @@ main .your-savings .container .yourSavings-wrapper .text-block .second-block p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .your-savings .container .yourSavings-wrapper .text-block button {
+.your-savings .container .yourSavings-wrapper .text-block button {
   width: 184px;
   padding: 20px 0px 20px 0px;
   border-radius: 50px;
@@ -390,27 +374,40 @@ main .your-savings .container .yourSavings-wrapper .text-block button {
   align-items: center;
   justify-content: center;
 }
-main .your-savings .container .yourSavings-wrapper .text-block button::after {
+.your-savings .container .yourSavings-wrapper .text-block button::after {
   content: "➡";
   margin-left: 10px;
   font-size: 26px;
   transition: transform 0.3s;
 }
-main .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
+.your-savings .container .yourSavings-wrapper .text-block button:hover::after {
   transform: translateX(10px);
 }
-main .couples {
+
+.partners {
+  background: #d2d9e1;
+  padding: 75px 0px 75px 0px;
+  position: relative;
+  bottom: 20px;
+}
+.partners .container .partners-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.couples {
   background: #d2d9e1;
 }
-main .couples .container {
+.couples .container {
   padding: 150px 150px 150px 150px;
 }
-main .couples .container .couples-wrapper {
+.couples .container .couples-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .couples .container .couples-wrapper .text-block .title {
+.couples .container .couples-wrapper .text-block .title {
   font-family: Chivo;
   font-size: 14px;
   font-weight: 400;
@@ -421,7 +418,7 @@ main .couples .container .couples-wrapper .text-block .title {
   text-decoration-skip-ink: none;
   margin-bottom: 15px;
 }
-main .couples .container .couples-wrapper .text-block h3 {
+.couples .container .couples-wrapper .text-block h3 {
   font-family: Roboto;
   font-size: 61px;
   font-weight: 400;
@@ -432,7 +429,7 @@ main .couples .container .couples-wrapper .text-block h3 {
   text-decoration-skip-ink: none;
   margin-bottom: 25px;
 }
-main .couples .container .couples-wrapper .text-block p {
+.couples .container .couples-wrapper .text-block p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -443,22 +440,22 @@ main .couples .container .couples-wrapper .text-block p {
   text-decoration-skip-ink: none;
   margin-bottom: 75px;
 }
-main .couples .container .couples-wrapper .text-block ul {
+.couples .container .couples-wrapper .text-block ul {
   display: flex;
   align-items: center;
 }
-main .couples .container .couples-wrapper .text-block ul li {
+.couples .container .couples-wrapper .text-block ul li {
   margin-right: 10px;
   margin-bottom: 20px;
 }
-main .couples .container .couples-wrapper .text-block .trustScore {
+.couples .container .couples-wrapper .text-block .trustScore {
   display: flex;
 }
-main .couples .container .couples-wrapper .text-block .trustScore .rating {
+.couples .container .couples-wrapper .text-block .trustScore .rating {
   margin-bottom: 0;
   margin-right: 15px;
 }
-main .couples .container .couples-wrapper .text-block .trustScore div {
+.couples .container .couples-wrapper .text-block .trustScore div {
   font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
@@ -469,21 +466,22 @@ main .couples .container .couples-wrapper .text-block .trustScore div {
   color: #0e0f0f;
   border-bottom: 1px solid black;
 }
-main .customers .container {
+
+.customers .container {
   padding: 50px 150px 50px 150px;
 }
-main .customers .container .customers-wrapper {
+.customers .container .customers-wrapper {
   display: flex;
   justify-content: space-around;
 }
-main .customers .container .customers-wrapper article {
+.customers .container .customers-wrapper article {
   width: 250px;
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: left;
 }
-main .customers .container .customers-wrapper article .review {
+.customers .container .customers-wrapper article .review {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
@@ -493,7 +491,7 @@ main .customers .container .customers-wrapper article .review {
   text-decoration-skip-ink: none;
   margin-bottom: 15px;
 }
-main .customers .container .customers-wrapper article .author {
+.customers .container .customers-wrapper article .author {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 400;
@@ -504,7 +502,7 @@ main .customers .container .customers-wrapper article .author {
   text-decoration-skip-ink: none;
   margin-bottom: 10px;
 }
-main .customers .container .customers-wrapper article .rank {
+.customers .container .customers-wrapper article .rank {
   font-family: Roboto;
   font-size: 13px;
   font-weight: 400;
@@ -514,11 +512,11 @@ main .customers .container .customers-wrapper article .rank {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .customers .container div {
+.customers .container div {
   display: flex;
   justify-content: center;
 }
-main .customers .container div p {
+.customers .container div p {
   display: inline;
   font-family: Roboto;
   font-size: 14px;
@@ -529,24 +527,25 @@ main .customers .container div p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .protection {
+
+.protection {
   padding: 150px 0px 150px 0px;
 }
-main .protection .container {
+.protection .container {
   padding: 0px 150px 0px 150px;
 }
-main .protection .container .protection-wrapper {
+.protection .container .protection-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .protection .container .protection-wrapper .text-block {
+.protection .container .protection-wrapper .text-block {
   width: 570px;
 }
-main .protection .container .protection-wrapper .text-block .first-block {
+.protection .container .protection-wrapper .text-block .first-block {
   border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
 }
-main .protection .container .protection-wrapper .text-block .first-block h2 {
+.protection .container .protection-wrapper .text-block .first-block h2 {
   font-family: Roboto;
   font-size: 52px;
   font-weight: 400;
@@ -557,7 +556,7 @@ main .protection .container .protection-wrapper .text-block .first-block h2 {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .protection .container .protection-wrapper .text-block .first-block p {
+.protection .container .protection-wrapper .text-block .first-block p {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
@@ -568,12 +567,12 @@ main .protection .container .protection-wrapper .text-block .first-block p {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .protection .container .protection-wrapper .text-block .second-block {
+.protection .container .protection-wrapper .text-block .second-block {
   padding: 30px 0px 30px 0px;
   border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   margin-bottom: 50px;
 }
-main .protection .container .protection-wrapper .text-block .second-block .title {
+.protection .container .protection-wrapper .text-block .second-block .title {
   font-family: Roboto;
   font-size: 40px;
   font-weight: 400;
@@ -584,7 +583,7 @@ main .protection .container .protection-wrapper .text-block .second-block .title
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .protection .container .protection-wrapper .text-block .second-block p {
+.protection .container .protection-wrapper .text-block .second-block p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -594,7 +593,7 @@ main .protection .container .protection-wrapper .text-block .second-block p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .protection .container .protection-wrapper .text-block button {
+.protection .container .protection-wrapper .text-block button {
   width: 210px;
   padding: 20px 0px 20px 0px;
   border-radius: 50px;
@@ -613,16 +612,16 @@ main .protection .container .protection-wrapper .text-block button {
   align-items: center;
   justify-content: center;
 }
-main .protection .container .protection-wrapper .text-block button::after {
+.protection .container .protection-wrapper .text-block button::after {
   content: "➡";
   margin-left: 10px;
   font-size: 26px;
   transition: transform 0.3s;
 }
-main .protection .container .protection-wrapper .text-block button:hover::after {
+.protection .container .protection-wrapper .text-block button:hover::after {
   transform: translateX(10px);
 }
-main .protection .container .protection-wrapper .photo-block p {
+.protection .container .protection-wrapper .photo-block p {
   text-align: center;
   font-family: Roboto;
   font-size: 12px;
@@ -633,20 +632,21 @@ main .protection .container .protection-wrapper .photo-block p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .tellus {
+
+.tellus {
   background-color: #d2d9e1;
 }
-main .tellus .container {
+.tellus .container {
   padding: 150px;
 }
-main .tellus .container .tellus-wrapper {
+.tellus .container .tellus-wrapper {
   display: flex;
   justify-content: space-between;
 }
-main .tellus .container .tellus-wrapper .text-block {
+.tellus .container .tellus-wrapper .text-block {
   max-width: 511px;
 }
-main .tellus .container .tellus-wrapper .text-block h3 {
+.tellus .container .tellus-wrapper .text-block h3 {
   font-family: Roboto;
   font-size: 51px;
   font-weight: 400;
@@ -657,7 +657,7 @@ main .tellus .container .tellus-wrapper .text-block h3 {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .tellus .container .tellus-wrapper .text-block p {
+.tellus .container .tellus-wrapper .text-block p {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
@@ -667,25 +667,26 @@ main .tellus .container .tellus-wrapper .text-block p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .tellus .container .tellus-wrapper .photo-block {
+.tellus .container .tellus-wrapper .photo-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .tellus .container .tellus-wrapper .photo-block img {
+.tellus .container .tellus-wrapper .photo-block img {
   margin-bottom: 20px;
 }
-main .frequently .container {
+
+.frequently .container {
   padding: 150px 70px 250px 70px;
 }
-main .frequently .container .frequently-wrapper {
+.frequently .container .frequently-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-main .frequently .container .frequently-wrapper h2 {
+.frequently .container .frequently-wrapper h2 {
   font-family: Roboto;
   font-size: 54px;
   font-weight: 400;
@@ -696,7 +697,7 @@ main .frequently .container .frequently-wrapper h2 {
   text-decoration-skip-ink: none;
   margin-bottom: 40px;
 }
-main .frequently .container .frequently-wrapper .question {
+.frequently .container .frequently-wrapper .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -704,7 +705,7 @@ main .frequently .container .frequently-wrapper .question {
   padding: 20px 0px 20px 0px;
   border-bottom: 1px solid rgba(14, 15, 15, 0.2509803922);
 }
-main .frequently .container .frequently-wrapper .question p {
+.frequently .container .frequently-wrapper .question p {
   font-family: Roboto;
   font-size: 19px;
   font-weight: 400;
@@ -714,17 +715,17 @@ main .frequently .container .frequently-wrapper .question p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .frequently .container .frequently-wrapper .question a {
+.frequently .container .frequently-wrapper .question a {
   cursor: pointer;
   padding: 3px 7px;
   border: rgba(14, 15, 15, 0.2509803922) 1px solid;
   font-size: 20px;
   transition: ease-in-out, 0.3s;
 }
-main .frequently .container .frequently-wrapper .question a:hover {
+.frequently .container .frequently-wrapper .question a:hover {
   background-color: hsla(0, 3%, 67%, 0.173);
 }
-main .frequently .container .frequently-wrapper button {
+.frequently .container .frequently-wrapper button {
   margin-top: 100px;
   font-family: Chivo;
   font-size: 12px;
@@ -741,20 +742,21 @@ main .frequently .container .frequently-wrapper button {
   background-color: white;
   transition: ease-in-out, 0.3s;
 }
-main .frequently .container .frequently-wrapper button:hover {
+.frequently .container .frequently-wrapper button:hover {
   background-color: hsla(0, 3%, 67%, 0.173);
 }
-main .payout {
+
+.payout {
   background: linear-gradient(blue, white);
 }
-main .payout .container {
+.payout .container {
   padding: 150px 140px 250px 70px;
 }
-main .payout .container .payout-wrapper {
+.payout .container .payout-wrapper {
   display: flex;
   justify-content: space-between;
 }
-main .payout .container .payout-wrapper .title-block h3 {
+.payout .container .payout-wrapper .title-block h3 {
   color: white;
   font-family: Roboto;
   font-size: 54px;
@@ -765,10 +767,10 @@ main .payout .container .payout-wrapper .title-block h3 {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .payout .container .payout-wrapper .text-block {
+.payout .container .payout-wrapper .text-block {
   width: 520px;
 }
-main .payout .container .payout-wrapper .text-block p {
+.payout .container .payout-wrapper .text-block p {
   color: white;
   font-family: Roboto;
   font-size: 24px;
@@ -779,7 +781,7 @@ main .payout .container .payout-wrapper .text-block p {
   text-decoration-skip-ink: none;
   margin-bottom: 120px;
 }
-main .payout .container .payout-wrapper .text-block button {
+.payout .container .payout-wrapper .text-block button {
   font-family: Chivo;
   font-size: 12px;
   font-weight: 400;
@@ -795,29 +797,30 @@ main .payout .container .payout-wrapper .text-block button {
   border: white;
   cursor: pointer;
 }
-main .payout .container .payout-wrapper .text-block button::after {
+.payout .container .payout-wrapper .text-block button::after {
   content: "➡";
   margin-left: 10px;
   font-size: 26px;
   transition: transform 0.3s;
 }
-main .payout .container .payout-wrapper .text-block button:hover::after {
+.payout .container .payout-wrapper .text-block button:hover::after {
   transform: translateX(30px);
 }
-main .getInTouch {
+
+.getInTouch {
   padding: 200px 0px 100px 0px;
   background-color: #0e0f0f;
   border-bottom: rgba(57, 61, 61, 0.8392156863) 1px solid;
 }
-main .getInTouch .container .getInTouch-wrapper {
+.getInTouch .container .getInTouch-wrapper {
   display: flex;
   justify-content: space-around;
 }
-main .getInTouch .container .getInTouch-wrapper ul {
+.getInTouch .container .getInTouch-wrapper ul {
   color: #d2d9e1;
   text-align: left;
 }
-main .getInTouch .container .getInTouch-wrapper ul .main {
+.getInTouch .container .getInTouch-wrapper ul .main {
   font-family: Chivo;
   font-size: 20px;
   font-weight: 400;
@@ -827,10 +830,10 @@ main .getInTouch .container .getInTouch-wrapper ul .main {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .getInTouch .container .getInTouch-wrapper ul li {
+.getInTouch .container .getInTouch-wrapper ul li {
   margin-bottom: 20px;
 }
-main .getInTouch .container .getInTouch-wrapper ul li a {
+.getInTouch .container .getInTouch-wrapper ul li a {
   font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
@@ -839,24 +842,25 @@ main .getInTouch .container .getInTouch-wrapper ul li a {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-main .getInTouch .container .getInTouch-wrapper ul ul {
+.getInTouch .container .getInTouch-wrapper ul ul {
   display: flex;
 }
-main .getInTouch .container .getInTouch-wrapper ul ul li {
+.getInTouch .container .getInTouch-wrapper ul ul li {
   margin-right: 15px;
 }
-main .getInTouch .container .getInTouch-wrapper ul ul li a img {
+.getInTouch .container .getInTouch-wrapper ul ul li a img {
   filter: contrast(0.5);
 }
-main .youShouldKnow {
+
+.youShouldKnow {
   background-color: #0e0f0f;
   padding: 100px 70px;
   border-bottom: rgba(57, 61, 61, 0.8392156863) 1px solid;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .first-block {
+.youShouldKnow .container .youShouldKnow-wrapper .first-block {
   margin-bottom: 100px;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .first-block .title {
+.youShouldKnow .container .youShouldKnow-wrapper .first-block .title {
   color: #B3B3B3;
   font-family: Roboto;
   font-size: 15px;
@@ -867,7 +871,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .first-block .title {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .first-block .item {
+.youShouldKnow .container .youShouldKnow-wrapper .first-block .item {
   color: #B3B3B3;
   font-family: Roboto;
   font-size: 15px;
@@ -878,10 +882,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .first-block .item {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .second-block {
+.youShouldKnow .container .youShouldKnow-wrapper .second-block {
   margin-bottom: 100px;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .second-block .title {
+.youShouldKnow .container .youShouldKnow-wrapper .second-block .title {
   color: #B3B3B3;
   font-family: Roboto;
   font-size: 15px;
@@ -892,7 +896,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .title {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
-main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
+.youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
   color: #B3B3B3;
   font-family: Roboto;
   font-size: 15px;
@@ -903,15 +907,24 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
   text-decoration-skip-ink: none;
   margin-bottom: 30px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  background-color: #0e0f0f;
+  color: #B3B3B3;
+}
+
 @media (max-width: 1344px) {
-  main .main-section {
+  .main-section {
     padding: 150px 100px 0px 100px;
   }
-  main .main-section .container .main-wrapper {
+  .main-section .container .main-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .main-section .container .main-wrapper .text-block h1 {
+  .main-section .container .main-wrapper .text-block h1 {
     padding: 75px 0 0 0;
     font-family: Roboto;
     font-size: 50px;
@@ -922,7 +935,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .main-section .container .main-wrapper .text-block p {
+  .main-section .container .main-wrapper .text-block p {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 400;
@@ -933,7 +946,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 150px;
   }
-  main .main-section .container .main-wrapper .text-block .form-description {
+  .main-section .container .main-wrapper .text-block .form-description {
     font-family: Chivo;
     font-size: 14px;
     font-weight: 400;
@@ -944,52 +957,51 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .main-section .container .main-wrapper .text-block form input {
+  .main-section .container .main-wrapper .text-block form input {
     width: 500px;
     height: 8px;
     top: 856px;
     left: 40px;
-    gap: 0px;
     border-radius: 8px 8px 8px 8px;
-    opacity: 0px;
+    opacity: 0.1px;
     padding: 30px;
     position: relative;
     top: 0px;
     left: 0px;
     border: #d2d9e1 1px solid;
   }
-  main .main-section .container .main-wrapper .text-block form button {
+  .main-section .container .main-wrapper .text-block form button {
     width: 100px;
     height: 44px;
     background-color: black;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    opacity: 0.1px;
     position: absolute;
     left: 490px;
     top: 755px;
     cursor: pointer;
   }
-  main .main-section .container .main-wrapper .image-block {
+  .main-section .container .main-wrapper .image-block {
     width: 400px;
   }
-  main .main-section .container .main-wrapper .image-block img {
+  .main-section .container .main-wrapper .image-block img {
     display: block;
     width: 100%;
   }
-  main .your-savings {
+  .your-savings {
     padding: 130px 0px 130px 0px;
   }
-  main .your-savings .container {
+  .your-savings .container {
     padding: 0px 50px 0px 150px;
   }
-  main .your-savings .container .yourSavings-wrapper {
+  .your-savings .container .yourSavings-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block {
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
     font-family: Roboto;
     font-size: 52px;
     font-weight: 400;
@@ -1000,7 +1012,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block p {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
@@ -1011,12 +1023,12 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block {
     padding: 30px 0px 30px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
     margin-bottom: 50px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
     font-family: Roboto;
     font-size: 40px;
     font-weight: 400;
@@ -1027,7 +1039,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block p {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -1037,7 +1049,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button {
+  .your-savings .container .yourSavings-wrapper .text-block button {
     width: 184px;
     padding: 20px 0px 20px 0px;
     border-radius: 50px;
@@ -1056,36 +1068,36 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     align-items: center;
     justify-content: center;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button::after {
+  .your-savings .container .yourSavings-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
+  .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
     transform: translateX(10px);
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a {
+  .your-savings .container .yourSavings-wrapper .photo-block a {
     display: block;
     width: 466px;
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a img {
+  .your-savings .container .yourSavings-wrapper .photo-block a img {
     display: block;
     width: 100%;
     height: auto;
   }
-  main .couples {
+  .couples {
     background: #d2d9e1;
   }
-  main .couples .container {
+  .couples .container {
     padding: 120px 120px 120px 120px;
   }
-  main .couples .container .couples-wrapper {
+  .couples .container .couples-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .couples .container .couples-wrapper .text-block .title {
+  .couples .container .couples-wrapper .text-block .title {
     font-family: Chivo;
     font-size: 14px;
     font-weight: 400;
@@ -1096,7 +1108,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .couples .container .couples-wrapper .text-block h3 {
+  .couples .container .couples-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 40px;
     font-weight: 400;
@@ -1107,7 +1119,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .couples .container .couples-wrapper .text-block p {
+  .couples .container .couples-wrapper .text-block p {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -1118,22 +1130,22 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 50px;
   }
-  main .couples .container .couples-wrapper .text-block ul {
+  .couples .container .couples-wrapper .text-block ul {
     display: flex;
     align-items: center;
   }
-  main .couples .container .couples-wrapper .text-block ul li {
+  .couples .container .couples-wrapper .text-block ul li {
     margin-right: 10px;
     margin-bottom: 20px;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore {
+  .couples .container .couples-wrapper .text-block .trustScore {
     display: flex;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore .rating {
+  .couples .container .couples-wrapper .text-block .trustScore .rating {
     margin-bottom: 0;
     margin-right: 15px;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore div {
+  .couples .container .couples-wrapper .text-block .trustScore div {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 400;
@@ -1144,24 +1156,24 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     color: #0e0f0f;
     border-bottom: 1px solid black;
   }
-  main .protection {
+  .protection {
     padding: 150px 0px 150px 0px;
   }
-  main .protection .container {
+  .protection .container {
     padding: 0px 100px 0px 100px;
   }
-  main .protection .container .protection-wrapper {
+  .protection .container .protection-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .protection .container .protection-wrapper .text-block {
+  .protection .container .protection-wrapper .text-block {
     width: 400px;
   }
-  main .protection .container .protection-wrapper .text-block .first-block {
+  .protection .container .protection-wrapper .text-block .first-block {
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   }
-  main .protection .container .protection-wrapper .text-block .first-block h2 {
+  .protection .container .protection-wrapper .text-block .first-block h2 {
     font-family: Roboto;
     font-size: 40px;
     font-weight: 400;
@@ -1172,7 +1184,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .first-block p {
+  .protection .container .protection-wrapper .text-block .first-block p {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -1183,12 +1195,12 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block {
+  .protection .container .protection-wrapper .text-block .second-block {
     padding: 30px 0px 30px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
     margin-bottom: 50px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block .title {
+  .protection .container .protection-wrapper .text-block .second-block .title {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -1199,7 +1211,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block p {
+  .protection .container .protection-wrapper .text-block .second-block p {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -1209,7 +1221,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .protection .container .protection-wrapper .text-block button {
+  .protection .container .protection-wrapper .text-block button {
     width: 210px;
     padding: 20px 0px 20px 0px;
     border-radius: 50px;
@@ -1228,16 +1240,16 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     align-items: center;
     justify-content: center;
   }
-  main .protection .container .protection-wrapper .text-block button::after {
+  .protection .container .protection-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .protection .container .protection-wrapper .text-block button:hover::after {
+  .protection .container .protection-wrapper .text-block button:hover::after {
     transform: translateX(10px);
   }
-  main .protection .container .protection-wrapper .photo-block p {
+  .protection .container .protection-wrapper .photo-block p {
     text-align: center;
     font-family: Roboto;
     font-size: 12px;
@@ -1248,20 +1260,20 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .tellus {
+  .tellus {
     background-color: #d2d9e1;
   }
-  main .tellus .container {
+  .tellus .container {
     padding: 150px 100px;
   }
-  main .tellus .container .tellus-wrapper {
+  .tellus .container .tellus-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .tellus .container .tellus-wrapper .text-block {
+  .tellus .container .tellus-wrapper .text-block {
     max-width: 511px;
   }
-  main .tellus .container .tellus-wrapper .text-block h3 {
+  .tellus .container .tellus-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 40px;
     font-weight: 400;
@@ -1272,7 +1284,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .tellus .container .tellus-wrapper .text-block p {
+  .tellus .container .tellus-wrapper .text-block p {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -1282,31 +1294,31 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .tellus .container .tellus-wrapper .photo-block {
+  .tellus .container .tellus-wrapper .photo-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .photo-block a {
+  .tellus .container .tellus-wrapper .photo-block a {
     width: 400px;
   }
-  main .tellus .container .tellus-wrapper .photo-block a img {
+  .tellus .container .tellus-wrapper .photo-block a img {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
-  main .payout {
+  .payout {
     background: linear-gradient(blue, white);
   }
-  main .payout .container {
+  .payout .container {
     padding: 150px 140px 250px 70px;
   }
-  main .payout .container .payout-wrapper {
+  .payout .container .payout-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .payout .container .payout-wrapper .title-block h3 {
+  .payout .container .payout-wrapper .title-block h3 {
     color: white;
     font-family: Roboto;
     font-size: 54px;
@@ -1317,10 +1329,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .payout .container .payout-wrapper .text-block {
+  .payout .container .payout-wrapper .text-block {
     width: 400px;
   }
-  main .payout .container .payout-wrapper .text-block p {
+  .payout .container .payout-wrapper .text-block p {
     color: white;
     font-family: Roboto;
     font-size: 24px;
@@ -1331,7 +1343,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 120px;
   }
-  main .payout .container .payout-wrapper .text-block button {
+  .payout .container .payout-wrapper .text-block button {
     font-family: Chivo;
     font-size: 12px;
     font-weight: 400;
@@ -1347,25 +1359,25 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     border: white;
     cursor: pointer;
   }
-  main .payout .container .payout-wrapper .text-block button::after {
+  .payout .container .payout-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .payout .container .payout-wrapper .text-block button:hover::after {
+  .payout .container .payout-wrapper .text-block button:hover::after {
     transform: translateX(30px);
   }
 }
 @media (max-width: 1144px) {
-  main .main-section {
+  .main-section {
     padding: 75px 100px 0px 100px;
   }
-  main .main-section .container .main-wrapper {
+  .main-section .container .main-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .main-section .container .main-wrapper .text-block h1 {
+  .main-section .container .main-wrapper .text-block h1 {
     padding: 0 0 0 0;
     font-family: Roboto;
     font-size: 35px;
@@ -1376,7 +1388,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .main-section .container .main-wrapper .text-block p {
+  .main-section .container .main-wrapper .text-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1387,7 +1399,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .main-section .container .main-wrapper .text-block .form-description {
+  .main-section .container .main-wrapper .text-block .form-description {
     font-family: Chivo;
     font-size: 11px;
     font-weight: 400;
@@ -1398,63 +1410,62 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .main-section .container .main-wrapper .text-block form input {
+  .main-section .container .main-wrapper .text-block form input {
     width: 300px;
     height: 5px;
     top: 856px;
     left: 40px;
-    gap: 0px;
     border-radius: 8px 8px 8px 8px;
-    opacity: 0px;
+    opacity: 0.1px;
     padding: 22px;
     position: relative;
     top: 0px;
     left: 0px;
     border: #d2d9e1 1px solid;
   }
-  main .main-section .container .main-wrapper .text-block form button {
+  .main-section .container .main-wrapper .text-block form button {
     width: 60px;
     height: 24px;
     background-color: black;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    opacity: 0.1px;
     position: absolute;
     left: 330px;
     top: 360px;
     cursor: pointer;
   }
-  main .main-section .container .main-wrapper .image-block {
+  .main-section .container .main-wrapper .image-block {
     width: 200px;
   }
-  main .main-section .container .main-wrapper .image-block img {
+  .main-section .container .main-wrapper .image-block img {
     display: block;
     width: 100%;
   }
-  main .partners {
+  .partners {
     background: #d2d9e1;
     padding: 75px 0px 75px 0px;
     position: relative;
     bottom: 20px;
   }
-  main .partners .container .partners-wrapper {
+  .partners .container .partners-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  main .your-savings {
+  .your-savings {
     padding: 50px 0px 50px 0px;
   }
-  main .your-savings .container {
+  .your-savings .container {
     padding: 0px 50px 0px 150px;
   }
-  main .your-savings .container .yourSavings-wrapper {
+  .your-savings .container .yourSavings-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block {
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
     font-family: Roboto;
     font-size: 35px;
     font-weight: 400;
@@ -1465,7 +1476,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1476,12 +1487,12 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block {
     padding: 0px 0px 30px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
     margin-bottom: 20px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -1492,7 +1503,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1502,7 +1513,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button {
+  .your-savings .container .yourSavings-wrapper .text-block button {
     width: 124px;
     padding: 10px 0px 10px 0px;
     border-radius: 50px;
@@ -1521,42 +1532,42 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     align-items: center;
     justify-content: center;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button::after {
+  .your-savings .container .yourSavings-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 16px;
     transition: transform 0.3s;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
+  .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
     transform: translateX(10px);
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a {
+  .your-savings .container .yourSavings-wrapper .photo-block a {
     display: block;
     width: 330px;
     height: auto;
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a img {
+  .your-savings .container .yourSavings-wrapper .photo-block a img {
     display: block;
     width: 100%;
     height: auto;
   }
-  main .couples {
+  .couples {
     background: #d2d9e1;
   }
-  main .couples .container {
+  .couples .container {
     padding: 60px 60px 60px 60px;
   }
-  main .couples .container .couples-wrapper {
+  .couples .container .couples-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .couples .container .couples-wrapper .text-block {
+  .couples .container .couples-wrapper .text-block {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  main .couples .container .couples-wrapper .text-block .title {
+  .couples .container .couples-wrapper .text-block .title {
     font-family: Chivo;
     font-size: 11px;
     font-weight: 400;
@@ -1567,7 +1578,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .couples .container .couples-wrapper .text-block h3 {
+  .couples .container .couples-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
@@ -1578,7 +1589,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .couples .container .couples-wrapper .text-block p {
+  .couples .container .couples-wrapper .text-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1589,30 +1600,30 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .couples .container .couples-wrapper .text-block ul {
+  .couples .container .couples-wrapper .text-block ul {
     display: flex;
     align-items: center;
     position: relative;
     left: 15px;
   }
-  main .couples .container .couples-wrapper .text-block ul li {
+  .couples .container .couples-wrapper .text-block ul li {
     width: 25px;
     margin-right: 10px;
     margin-bottom: 20px;
   }
-  main .couples .container .couples-wrapper .text-block ul li img {
+  .couples .container .couples-wrapper .text-block ul li img {
     display: block;
     width: 100%;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore {
+  .couples .container .couples-wrapper .text-block .trustScore {
     display: flex;
     align-items: center;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore .rating {
+  .couples .container .couples-wrapper .text-block .trustScore .rating {
     margin-bottom: 0;
     margin-right: 15px;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore div {
+  .couples .container .couples-wrapper .text-block .trustScore div {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -1623,29 +1634,29 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     color: #0e0f0f;
     border-bottom: 1px solid black;
   }
-  main .couples .container .couples-wrapper .photo-block a {
+  .couples .container .couples-wrapper .photo-block a {
     display: inline-block;
     width: 300px;
   }
-  main .couples .container .couples-wrapper .photo-block a img {
+  .couples .container .couples-wrapper .photo-block a img {
     display: block;
     width: 100%;
   }
-  main .customers .container {
+  .customers .container {
     padding: 50px 80px 50px 80px;
   }
-  main .customers .container .customers-wrapper {
+  .customers .container .customers-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .customers .container .customers-wrapper article {
+  .customers .container .customers-wrapper article {
     width: 150px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: left;
   }
-  main .customers .container .customers-wrapper article .review {
+  .customers .container .customers-wrapper article .review {
     font-family: Roboto;
     font-size: 15px;
     font-weight: 400;
@@ -1655,7 +1666,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .customers .container .customers-wrapper article .author {
+  .customers .container .customers-wrapper article .author {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -1666,7 +1677,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
   }
-  main .customers .container .customers-wrapper article .rank {
+  .customers .container .customers-wrapper article .rank {
     font-family: Roboto;
     font-size: 10px;
     font-weight: 400;
@@ -1676,11 +1687,11 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .customers .container div {
+  .customers .container div {
     display: flex;
     justify-content: center;
   }
-  main .customers .container div p {
+  .customers .container div p {
     display: inline;
     font-family: Roboto;
     font-size: 14px;
@@ -1691,28 +1702,28 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .protection {
+  .protection {
     padding: 60px 0px 60px 0px;
   }
-  main .protection .container {
+  .protection .container {
     padding: 0px 30px 0px 30px;
   }
-  main .protection .container .protection-wrapper {
+  .protection .container .protection-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  main .protection .container .protection-wrapper .text-block {
+  .protection .container .protection-wrapper .text-block {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
   }
-  main .protection .container .protection-wrapper .text-block .first-block {
+  .protection .container .protection-wrapper .text-block .first-block {
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   }
-  main .protection .container .protection-wrapper .text-block .first-block h2 {
+  .protection .container .protection-wrapper .text-block .first-block h2 {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
@@ -1723,7 +1734,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .first-block p {
+  .protection .container .protection-wrapper .text-block .first-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1734,12 +1745,12 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block {
+  .protection .container .protection-wrapper .text-block .second-block {
     padding: 30px 0px 30px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
     margin-bottom: 50px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block .title {
+  .protection .container .protection-wrapper .text-block .second-block .title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -1750,7 +1761,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .protection .container .protection-wrapper .text-block .second-block p {
+  .protection .container .protection-wrapper .text-block .second-block p {
     font-family: Roboto;
     font-size: 11px;
     font-weight: 400;
@@ -1760,7 +1771,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .protection .container .protection-wrapper .text-block button {
+  .protection .container .protection-wrapper .text-block button {
     width: 210px;
     padding: 20px 0px 20px 0px;
     border-radius: 50px;
@@ -1779,19 +1790,19 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     align-items: center;
     justify-content: center;
   }
-  main .protection .container .protection-wrapper .text-block button::after {
+  .protection .container .protection-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .protection .container .protection-wrapper .text-block button:hover::after {
+  .protection .container .protection-wrapper .text-block button:hover::after {
     transform: translateX(10px);
   }
-  main .protection .container .protection-wrapper .photo-block {
+  .protection .container .protection-wrapper .photo-block {
     width: 300px;
   }
-  main .protection .container .protection-wrapper .photo-block p {
+  .protection .container .protection-wrapper .photo-block p {
     text-align: center;
     font-family: Roboto;
     font-size: 12px;
@@ -1803,21 +1814,21 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .tellus {
+  .tellus {
     background-color: #d2d9e1;
   }
-  main .tellus .container {
+  .tellus .container {
     padding: 60px 30px;
   }
-  main .tellus .container .tellus-wrapper {
+  .tellus .container .tellus-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .text-block {
+  .tellus .container .tellus-wrapper .text-block {
     max-width: 350px;
   }
-  main .tellus .container .tellus-wrapper .text-block h3 {
+  .tellus .container .tellus-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 35px;
     font-weight: 400;
@@ -1828,7 +1839,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .tellus .container .tellus-wrapper .text-block p {
+  .tellus .container .tellus-wrapper .text-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -1838,34 +1849,34 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .tellus .container .tellus-wrapper .photo-block {
+  .tellus .container .tellus-wrapper .photo-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .photo-block a {
+  .tellus .container .tellus-wrapper .photo-block a {
     width: 250px;
   }
-  main .tellus .container .tellus-wrapper .photo-block a img {
+  .tellus .container .tellus-wrapper .photo-block a img {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
-  main .tellus .container .tellus-wrapper .photo-block p {
+  .tellus .container .tellus-wrapper .photo-block p {
     font-size: 12px;
     text-align: center;
   }
-  main .frequently .container {
+  .frequently .container {
     padding: 150px 70px 250px 70px;
   }
-  main .frequently .container .frequently-wrapper {
+  .frequently .container .frequently-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  main .frequently .container .frequently-wrapper h2 {
+  .frequently .container .frequently-wrapper h2 {
     font-family: Roboto;
     font-size: 44px;
     font-weight: 400;
@@ -1876,7 +1887,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 40px;
   }
-  main .frequently .container .frequently-wrapper .question {
+  .frequently .container .frequently-wrapper .question {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1884,7 +1895,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     padding: 20px 0px 20px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2509803922);
   }
-  main .frequently .container .frequently-wrapper .question p {
+  .frequently .container .frequently-wrapper .question p {
     font-family: Roboto;
     font-size: 19px;
     font-weight: 400;
@@ -1894,17 +1905,17 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .frequently .container .frequently-wrapper .question a {
+  .frequently .container .frequently-wrapper .question a {
     cursor: pointer;
     padding: 3px 7px;
     border: rgba(14, 15, 15, 0.2509803922) 1px solid;
     font-size: 20px;
     transition: ease-in-out, 0.3s;
   }
-  main .frequently .container .frequently-wrapper .question a:hover {
+  .frequently .container .frequently-wrapper .question a:hover {
     background-color: hsla(0, 3%, 67%, 0.173);
   }
-  main .frequently .container .frequently-wrapper button {
+  .frequently .container .frequently-wrapper button {
     margin-top: 100px;
     font-family: Chivo;
     font-size: 12px;
@@ -1921,20 +1932,20 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     background-color: white;
     transition: ease-in-out, 0.3s;
   }
-  main .frequently .container .frequently-wrapper button:hover {
+  .frequently .container .frequently-wrapper button:hover {
     background-color: hsla(0, 3%, 67%, 0.173);
   }
-  main .payout {
+  .payout {
     background: linear-gradient(blue, white);
   }
-  main .payout .container {
+  .payout .container {
     padding: 100px 30px 150px 30px;
   }
-  main .payout .container .payout-wrapper {
+  .payout .container .payout-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .payout .container .payout-wrapper .title-block h3 {
+  .payout .container .payout-wrapper .title-block h3 {
     color: white;
     font-family: Roboto;
     font-size: 44px;
@@ -1945,10 +1956,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .payout .container .payout-wrapper .text-block {
+  .payout .container .payout-wrapper .text-block {
     width: 350px;
   }
-  main .payout .container .payout-wrapper .text-block p {
+  .payout .container .payout-wrapper .text-block p {
     color: white;
     font-family: Roboto;
     font-size: 20px;
@@ -1959,7 +1970,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 80px;
   }
-  main .payout .container .payout-wrapper .text-block button {
+  .payout .container .payout-wrapper .text-block button {
     font-family: Chivo;
     font-size: 12px;
     font-weight: 400;
@@ -1975,29 +1986,29 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     border: white;
     cursor: pointer;
   }
-  main .payout .container .payout-wrapper .text-block button::after {
+  .payout .container .payout-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .payout .container .payout-wrapper .text-block button:hover::after {
+  .payout .container .payout-wrapper .text-block button:hover::after {
     transform: translateX(20px);
   }
-  main .getInTouch {
+  .getInTouch {
     padding: 200px 0px 100px 0px;
     background-color: #0e0f0f;
     border-bottom: rgba(57, 61, 61, 0.8392156863) 1px solid;
   }
-  main .getInTouch .container .getInTouch-wrapper {
+  .getInTouch .container .getInTouch-wrapper {
     display: flex;
     justify-content: space-around;
   }
-  main .getInTouch .container .getInTouch-wrapper ul {
+  .getInTouch .container .getInTouch-wrapper ul {
     color: #d2d9e1;
     text-align: left;
   }
-  main .getInTouch .container .getInTouch-wrapper ul .main {
+  .getInTouch .container .getInTouch-wrapper ul .main {
     font-family: Chivo;
     font-size: 16px;
     font-weight: 400;
@@ -2007,10 +2018,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .getInTouch .container .getInTouch-wrapper ul li {
+  .getInTouch .container .getInTouch-wrapper ul li {
     margin-bottom: 20px;
   }
-  main .getInTouch .container .getInTouch-wrapper ul li a {
+  .getInTouch .container .getInTouch-wrapper ul li a {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2019,25 +2030,25 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul {
+  .getInTouch .container .getInTouch-wrapper ul ul {
     display: flex;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li {
+  .getInTouch .container .getInTouch-wrapper ul ul li {
     margin-right: 12px;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li a img {
+  .getInTouch .container .getInTouch-wrapper ul ul li a img {
     filter: contrast(0.5);
   }
 }
 @media (max-width: 768px) {
-  main .main-section {
+  .main-section {
     padding: 35px 50px 0px 50px;
   }
-  main .main-section .container .main-wrapper {
+  .main-section .container .main-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .main-section .container .main-wrapper .text-block h1 {
+  .main-section .container .main-wrapper .text-block h1 {
     padding: 0 0 0 0;
     font-family: Roboto;
     font-size: 24px;
@@ -2048,7 +2059,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .main-section .container .main-wrapper .text-block p {
+  .main-section .container .main-wrapper .text-block p {
     font-family: Roboto;
     font-size: 11px;
     font-weight: 400;
@@ -2059,7 +2070,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
   }
-  main .main-section .container .main-wrapper .text-block .form-description {
+  .main-section .container .main-wrapper .text-block .form-description {
     font-family: Chivo;
     font-size: 9px;
     font-weight: 400;
@@ -2070,80 +2081,79 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .main-section .container .main-wrapper .text-block form input {
+  .main-section .container .main-wrapper .text-block form input {
     width: 200px;
     height: 5px;
     top: 856px;
     left: 40px;
-    gap: 0px;
     border-radius: 8px 8px 8px 8px;
-    opacity: 0px;
+    opacity: 0.1px;
     padding: 18px;
     position: relative;
     top: 0px;
     left: 0px;
     border: #d2d9e1 1px solid;
   }
-  main .main-section .container .main-wrapper .text-block form button {
+  .main-section .container .main-wrapper .text-block form button {
     width: 45px;
     height: 15px;
     background-color: black;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    opacity: 0.1px;
     position: absolute;
     left: 194px;
     top: 277px;
     cursor: pointer;
   }
-  main .main-section .container .main-wrapper .image-block {
+  .main-section .container .main-wrapper .image-block {
     width: 150px;
   }
-  main .main-section .container .main-wrapper .image-block img {
+  .main-section .container .main-wrapper .image-block img {
     display: block;
     width: 100%;
   }
-  main .partners {
+  .partners {
     background: #d2d9e1;
     padding: 30px 30px 30px 30px;
     position: relative;
     bottom: 20px;
   }
-  main .partners .container .partners-wrapper {
+  .partners .container .partners-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .partners .container .partners-wrapper .partner-item a {
+  .partners .container .partners-wrapper .partner-item a {
     width: 100px;
     display: block;
   }
-  main .partners .container .partners-wrapper .partner-item a img {
+  .partners .container .partners-wrapper .partner-item a img {
     display: block;
     width: 100%;
   }
-  main .your-savings {
+  .your-savings {
     padding: 50px 0px 50px 0px;
   }
-  main .your-savings .container {
+  .your-savings .container {
     padding: 0px 50px 0px 50px;
   }
-  main .your-savings .container .yourSavings-wrapper {
+  .your-savings .container .yourSavings-wrapper {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block {
+  .your-savings .container .yourSavings-wrapper .text-block {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     order: 2;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block {
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block h2 {
     font-family: Roboto;
     font-size: 35px;
     font-weight: 400;
@@ -2154,7 +2164,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .first-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .first-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2165,12 +2175,12 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block {
     padding: 0px 0px 30px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2392156863);
     margin-bottom: 20px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block .title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -2181,7 +2191,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block .second-block p {
+  .your-savings .container .yourSavings-wrapper .text-block .second-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2191,7 +2201,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button {
+  .your-savings .container .yourSavings-wrapper .text-block button {
     width: 124px;
     padding: 10px 0px 10px 0px;
     border-radius: 50px;
@@ -2210,48 +2220,48 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     align-items: center;
     justify-content: center;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button::after {
+  .your-savings .container .yourSavings-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 16px;
     transition: transform 0.3s;
   }
-  main .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
+  .your-savings .container .yourSavings-wrapper .text-block button:hover::after {
     transform: translateX(10px);
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block {
+  .your-savings .container .yourSavings-wrapper .photo-block {
     order: 1;
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a {
+  .your-savings .container .yourSavings-wrapper .photo-block a {
     display: block;
     width: 250px;
     height: auto;
   }
-  main .your-savings .container .yourSavings-wrapper .photo-block a img {
+  .your-savings .container .yourSavings-wrapper .photo-block a img {
     display: block;
     width: 100%;
     height: auto;
   }
-  main .couples {
+  .couples {
     background: #d2d9e1;
   }
-  main .couples .container {
+  .couples .container {
     padding: 60px 60px 60px 60px;
   }
-  main .couples .container .couples-wrapper {
+  .couples .container .couples-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
   }
-  main .couples .container .couples-wrapper .text-block {
+  .couples .container .couples-wrapper .text-block {
     display: flex;
     align-items: center;
     flex-direction: column;
     order: 1;
     margin-bottom: 50px;
   }
-  main .couples .container .couples-wrapper .text-block .title {
+  .couples .container .couples-wrapper .text-block .title {
     font-family: Chivo;
     font-size: 11px;
     font-weight: 400;
@@ -2262,7 +2272,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .couples .container .couples-wrapper .text-block h3 {
+  .couples .container .couples-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
@@ -2273,7 +2283,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .couples .container .couples-wrapper .text-block p {
+  .couples .container .couples-wrapper .text-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2284,30 +2294,30 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 25px;
   }
-  main .couples .container .couples-wrapper .text-block ul {
+  .couples .container .couples-wrapper .text-block ul {
     display: flex;
     align-items: center;
     position: relative;
     left: 15px;
   }
-  main .couples .container .couples-wrapper .text-block ul li {
+  .couples .container .couples-wrapper .text-block ul li {
     width: 25px;
     margin-right: 10px;
     margin-bottom: 20px;
   }
-  main .couples .container .couples-wrapper .text-block ul li img {
+  .couples .container .couples-wrapper .text-block ul li img {
     display: block;
     width: 100%;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore {
+  .couples .container .couples-wrapper .text-block .trustScore {
     display: flex;
     align-items: center;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore .rating {
+  .couples .container .couples-wrapper .text-block .trustScore .rating {
     margin-bottom: 0;
     margin-right: 15px;
   }
-  main .couples .container .couples-wrapper .text-block .trustScore div {
+  .couples .container .couples-wrapper .text-block .trustScore div {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -2318,32 +2328,32 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     color: #0e0f0f;
     border-bottom: 1px solid black;
   }
-  main .couples .container .couples-wrapper .photo-block {
+  .couples .container .couples-wrapper .photo-block {
     order: 2;
   }
-  main .couples .container .couples-wrapper .photo-block a {
+  .couples .container .couples-wrapper .photo-block a {
     display: inline-block;
     width: 300px;
   }
-  main .couples .container .couples-wrapper .photo-block a img {
+  .couples .container .couples-wrapper .photo-block a img {
     display: block;
     width: 100%;
   }
-  main .customers .container {
+  .customers .container {
     padding: 30px 20px 30px 20px;
   }
-  main .customers .container .customers-wrapper {
+  .customers .container .customers-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  main .customers .container .customers-wrapper article {
+  .customers .container .customers-wrapper article {
     width: 90px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: left;
   }
-  main .customers .container .customers-wrapper article .review {
+  .customers .container .customers-wrapper article .review {
     font-family: Roboto;
     font-size: 11px;
     font-weight: 400;
@@ -2353,7 +2363,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .customers .container .customers-wrapper article .author {
+  .customers .container .customers-wrapper article .author {
     font-family: Roboto;
     font-size: 10px;
     font-weight: 400;
@@ -2364,7 +2374,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
   }
-  main .customers .container .customers-wrapper article .rank {
+  .customers .container .customers-wrapper article .rank {
     font-family: Roboto;
     font-size: 8px;
     font-weight: 400;
@@ -2374,11 +2384,11 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .customers .container div {
+  .customers .container div {
     display: flex;
     justify-content: center;
   }
-  main .customers .container div p {
+  .customers .container div p {
     display: inline;
     font-family: Roboto;
     font-size: 14px;
@@ -2389,22 +2399,22 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .tellus {
+  .tellus {
     background-color: #d2d9e1;
   }
-  main .tellus .container {
+  .tellus .container {
     padding: 60px 30px;
   }
-  main .tellus .container .tellus-wrapper {
+  .tellus .container .tellus-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .text-block {
+  .tellus .container .tellus-wrapper .text-block {
     max-width: 350px;
   }
-  main .tellus .container .tellus-wrapper .text-block h3 {
+  .tellus .container .tellus-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 35px;
     font-weight: 400;
@@ -2415,7 +2425,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .tellus .container .tellus-wrapper .text-block p {
+  .tellus .container .tellus-wrapper .text-block p {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2426,34 +2436,34 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 20px;
   }
-  main .tellus .container .tellus-wrapper .photo-block {
+  .tellus .container .tellus-wrapper .photo-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .photo-block a {
+  .tellus .container .tellus-wrapper .photo-block a {
     width: 250px;
   }
-  main .tellus .container .tellus-wrapper .photo-block a img {
+  .tellus .container .tellus-wrapper .photo-block a img {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
-  main .tellus .container .tellus-wrapper .photo-block p {
+  .tellus .container .tellus-wrapper .photo-block p {
     font-size: 12px;
     text-align: center;
   }
-  main .frequently .container {
+  .frequently .container {
     padding: 100px 30px 100px 30px;
   }
-  main .frequently .container .frequently-wrapper {
+  .frequently .container .frequently-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  main .frequently .container .frequently-wrapper h2 {
+  .frequently .container .frequently-wrapper h2 {
     font-family: Roboto;
     font-size: 34px;
     font-weight: 400;
@@ -2464,7 +2474,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 40px;
   }
-  main .frequently .container .frequently-wrapper .question {
+  .frequently .container .frequently-wrapper .question {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2472,7 +2482,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     padding: 20px 0px 20px 0px;
     border-bottom: 1px solid rgba(14, 15, 15, 0.2509803922);
   }
-  main .frequently .container .frequently-wrapper .question p {
+  .frequently .container .frequently-wrapper .question p {
     font-family: Roboto;
     font-size: 19px;
     font-weight: 400;
@@ -2482,17 +2492,17 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .frequently .container .frequently-wrapper .question a {
+  .frequently .container .frequently-wrapper .question a {
     cursor: pointer;
     padding: 3px 7px;
     border: rgba(14, 15, 15, 0.2509803922) 1px solid;
     font-size: 20px;
     transition: ease-in-out, 0.3s;
   }
-  main .frequently .container .frequently-wrapper .question a:hover {
+  .frequently .container .frequently-wrapper .question a:hover {
     background-color: hsla(0, 3%, 67%, 0.173);
   }
-  main .frequently .container .frequently-wrapper button {
+  .frequently .container .frequently-wrapper button {
     margin-top: 100px;
     font-family: Chivo;
     font-size: 12px;
@@ -2509,22 +2519,22 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     background-color: white;
     transition: ease-in-out, 0.3s;
   }
-  main .frequently .container .frequently-wrapper button:hover {
+  .frequently .container .frequently-wrapper button:hover {
     background-color: hsla(0, 3%, 67%, 0.173);
   }
-  main .payout {
+  .payout {
     background: linear-gradient(blue, white);
   }
-  main .payout .container {
+  .payout .container {
     padding: 100px 30px 100px 30px;
   }
-  main .payout .container .payout-wrapper {
+  .payout .container .payout-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
-  main .payout .container .payout-wrapper .title-block h3 {
+  .payout .container .payout-wrapper .title-block h3 {
     color: white;
     font-family: Roboto;
     font-size: 44px;
@@ -2536,13 +2546,13 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .payout .container .payout-wrapper .text-block {
+  .payout .container .payout-wrapper .text-block {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 270px;
   }
-  main .payout .container .payout-wrapper .text-block p {
+  .payout .container .payout-wrapper .text-block p {
     color: white;
     font-family: Roboto;
     font-size: 16px;
@@ -2553,7 +2563,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 50px;
   }
-  main .payout .container .payout-wrapper .text-block button {
+  .payout .container .payout-wrapper .text-block button {
     font-family: Chivo;
     font-size: 12px;
     font-weight: 400;
@@ -2569,31 +2579,31 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     border: white;
     cursor: pointer;
   }
-  main .payout .container .payout-wrapper .text-block button::after {
+  .payout .container .payout-wrapper .text-block button::after {
     content: "➡";
     margin-left: 10px;
     font-size: 26px;
     transition: transform 0.3s;
   }
-  main .payout .container .payout-wrapper .text-block button:hover::after {
+  .payout .container .payout-wrapper .text-block button:hover::after {
     transform: translateX(20px);
   }
-  main .getInTouch {
+  .getInTouch {
     padding: 50px 0px 50px 0px;
     background-color: #0e0f0f;
     border-bottom: rgba(57, 61, 61, 0.8392156863) 1px solid;
   }
-  main .getInTouch .container .getInTouch-wrapper {
+  .getInTouch .container .getInTouch-wrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  main .getInTouch .container .getInTouch-wrapper ul {
+  .getInTouch .container .getInTouch-wrapper ul {
     color: #d2d9e1;
     text-align: center;
   }
-  main .getInTouch .container .getInTouch-wrapper ul .main {
+  .getInTouch .container .getInTouch-wrapper ul .main {
     font-family: Chivo;
     font-size: 16px;
     font-weight: 400;
@@ -2604,10 +2614,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     color: white;
   }
-  main .getInTouch .container .getInTouch-wrapper ul li {
+  .getInTouch .container .getInTouch-wrapper ul li {
     margin-bottom: 20px;
   }
-  main .getInTouch .container .getInTouch-wrapper ul li a {
+  .getInTouch .container .getInTouch-wrapper ul li a {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
@@ -2617,39 +2627,39 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     color: #b0b4b4;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul {
+  .getInTouch .container .getInTouch-wrapper ul ul {
     display: flex;
     justify-content: center;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li {
+  .getInTouch .container .getInTouch-wrapper ul ul li {
     margin-right: 10px;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li:last-child {
+  .getInTouch .container .getInTouch-wrapper ul ul li:last-child {
     margin-right: 0;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li a {
+  .getInTouch .container .getInTouch-wrapper ul ul li a {
     display: inline-block;
     width: 15px;
   }
-  main .getInTouch .container .getInTouch-wrapper ul ul li a img {
+  .getInTouch .container .getInTouch-wrapper ul ul li a img {
     display: block;
     width: 100%;
     filter: contrast(0.5);
   }
-  main .youShouldKnow {
+  .youShouldKnow {
     background-color: #0e0f0f;
     padding: 50px 30px;
     border-bottom: rgba(57, 61, 61, 0.8392156863) 1px solid;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper {
+  .youShouldKnow .container .youShouldKnow-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .first-block {
+  .youShouldKnow .container .youShouldKnow-wrapper .first-block {
     margin-bottom: 100px;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .first-block .title {
+  .youShouldKnow .container .youShouldKnow-wrapper .first-block .title {
     color: #B3B3B3;
     font-family: Roboto;
     font-size: 15px;
@@ -2660,7 +2670,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .first-block .item {
+  .youShouldKnow .container .youShouldKnow-wrapper .first-block .item {
     color: #B3B3B3;
     font-family: Roboto;
     font-size: 15px;
@@ -2671,10 +2681,10 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .second-block {
+  .youShouldKnow .container .youShouldKnow-wrapper .second-block {
     margin-bottom: 100px;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .second-block .title {
+  .youShouldKnow .container .youShouldKnow-wrapper .second-block .title {
     color: #B3B3B3;
     font-family: Roboto;
     font-size: 15px;
@@ -2685,7 +2695,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
+  .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     color: #B3B3B3;
     font-family: Roboto;
     font-size: 15px;
@@ -2698,16 +2708,16 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
   }
 }
 @media (max-width: 580px) {
-  main .main-section {
+  .main-section {
     padding: 25px 30px 0px 30px;
   }
-  main .main-section .container .main-wrapper {
+  .main-section .container .main-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  main .main-section .container .main-wrapper .text-block h1 {
+  .main-section .container .main-wrapper .text-block h1 {
     padding: 0 0 0 0;
     font-family: Roboto;
     font-size: 20px;
@@ -2718,7 +2728,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  main .main-section .container .main-wrapper .text-block p {
+  .main-section .container .main-wrapper .text-block p {
     font-family: Roboto;
     font-size: 11px;
     font-weight: 400;
@@ -2729,7 +2739,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
   }
-  main .main-section .container .main-wrapper .text-block .form-description {
+  .main-section .container .main-wrapper .text-block .form-description {
     font-family: Chivo;
     font-size: 9px;
     font-weight: 400;
@@ -2740,17 +2750,16 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 15px;
   }
-  main .main-section .container .main-wrapper .text-block form {
+  .main-section .container .main-wrapper .text-block form {
     position: relative;
   }
-  main .main-section .container .main-wrapper .text-block form input {
+  .main-section .container .main-wrapper .text-block form input {
     width: 270px;
     height: 5px;
     top: 856px;
     left: 40px;
-    gap: 0px;
     border-radius: 8px 8px 8px 8px;
-    opacity: 0px;
+    opacity: 0.1px;
     padding: 18px 18px 10px 18px;
     position: relative;
     top: 0px;
@@ -2758,61 +2767,61 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     border: #d2d9e1 1px solid;
     margin-bottom: 40px;
   }
-  main .main-section .container .main-wrapper .text-block form button {
+  .main-section .container .main-wrapper .text-block form button {
     width: 45px;
     height: 15px;
     background-color: black;
     border-radius: 100px 100px 100px 100px;
-    opacity: 0px;
+    opacity: 0.1px;
     position: absolute;
     left: 213px;
     top: 7px;
     cursor: pointer;
   }
-  main .main-section .container .main-wrapper .image-block {
+  .main-section .container .main-wrapper .image-block {
     width: 150px;
     position: relative;
     left: 30px;
   }
-  main .main-section .container .main-wrapper .image-block img {
+  .main-section .container .main-wrapper .image-block img {
     display: block;
     width: 100%;
   }
-  main .partners {
+  .partners {
     background: #d2d9e1;
     padding: 30px 15px 30px 15px;
     position: relative;
     bottom: 20px;
   }
-  main .partners .container .partners-wrapper {
+  .partners .container .partners-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  main .partners .container .partners-wrapper .partner-item a {
+  .partners .container .partners-wrapper .partner-item a {
     width: 50px;
     display: block;
   }
-  main .partners .container .partners-wrapper .partner-item a img {
+  .partners .container .partners-wrapper .partner-item a img {
     display: block;
     width: 100%;
   }
-  main .tellus {
+  .tellus {
     background-color: #d2d9e1;
   }
-  main .tellus .container {
+  .tellus .container {
     padding: 60px 30px;
   }
-  main .tellus .container .tellus-wrapper {
+  .tellus .container .tellus-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .text-block {
+  .tellus .container .tellus-wrapper .text-block {
     max-width: 350px;
   }
-  main .tellus .container .tellus-wrapper .text-block h3 {
+  .tellus .container .tellus-wrapper .text-block h3 {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -2823,7 +2832,7 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 30px;
   }
-  main .tellus .container .tellus-wrapper .text-block p {
+  .tellus .container .tellus-wrapper .text-block p {
     font-family: Roboto;
     font-size: 10px;
     font-weight: 400;
@@ -2834,30 +2843,26 @@ main .youShouldKnow .container .youShouldKnow-wrapper .second-block .item {
     text-decoration-skip-ink: none;
     margin-bottom: 20px;
   }
-  main .tellus .container .tellus-wrapper .photo-block {
+  .tellus .container .tellus-wrapper .photo-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  main .tellus .container .tellus-wrapper .photo-block a {
+  .tellus .container .tellus-wrapper .photo-block a {
     width: 150px;
   }
-  main .tellus .container .tellus-wrapper .photo-block a img {
+  .tellus .container .tellus-wrapper .photo-block a img {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
-  main .tellus .container .tellus-wrapper .photo-block p {
+  .tellus .container .tellus-wrapper .photo-block p {
     font-size: 12px;
     text-align: center;
   }
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0px;
-  background-color: #0e0f0f;
-  color: #B3B3B3;
+.container {
+  max-width: 1900px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
